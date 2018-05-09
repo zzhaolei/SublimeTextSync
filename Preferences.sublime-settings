@@ -1,7 +1,10 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Microsoft YaHei Mono",
 	"font_size": 16,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Markdown"
@@ -9,8 +12,5 @@
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"highlight_line": true,
-	"vintage_ctrl_keys": true,
-	"ensure_newline_at_eof_on_save": true,
-	"default_line_ending": "unix",
+	"vintage_ctrl_keys": true
 }
