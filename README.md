@@ -29,6 +29,7 @@ Sublime Text的所有插件和配置备份
 使用` Ctrl + ~ `快捷键或者通过`View-->Show Console`菜单打开命令行, 按`Esc`取消显示窗口, 
 
  - `Sublime Text 3`粘贴如下代码:
+
 ```
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
@@ -89,10 +90,13 @@ git push origin master
 点击工具栏的`Preferences-->Settings`, 在新窗口的右侧`{}`里追加(记得在每行结尾处加逗号`,`, 应为状态下的字符):
 
  - Windows
+
   ```
      "font_face": "Microsoft YaHei Mono",
   ```
+
  - Linux
+
   ```
     "font_face": "Dejavu Sans Mono",
   ```
@@ -136,6 +140,7 @@ git push origin master
 使用` Ctrl + ~ `快捷键或者通过`View-->Show Console`菜单打开命令行, 按`Esc`取消显示窗口, 
 
  - `Sublime Text 3`粘贴如下代码:
+
 ```
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
@@ -159,12 +164,14 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     如果安装`MarkDownEditing`后, 打开`.md`文件报错如`error: Error loading syntax file "Packages/MarkdownEditing/Markdown.tmLanguage": Unable to open Packages/MarkdownEditing/Markdown.tmLanguage`, 以及类似的错误信息, 可以尝试使用`ctrl+shift+p`, 在命令界面输入`Set Syntax: Markdown`, 选择并确定. 或者输入`Set Syntax: MultiMarkdown`, 选择并确定.
 
      - `Markdown Preview`配置快捷键
+
         通过浏览器预览, 在浏览器端需要手动刷新
         ```
           { "keys": ["alt+m"], "command": "markdown_preview", "args": { "target": "browser"} }, 
         ```
 
      - `OmniMarkupPreviewer`实时在浏览器预览
+
         快捷键:
         ```
         Ctrl+Alt+O: 在浏览器中预览标记.
@@ -173,6 +180,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
         ```
 
      - `MarkDownEditing`配置
+
         将`Perferences-->Package Settings-->MarkDown Editing-->MarkDown GFM Settings - Default`中的全部内容, 复制粘贴到`Perferences-->Package Settings-->MarkDown Editing-->MarkDown GFM Settings - User`中,
 
         修改`Perferences-->Package Settings-->MarkDown Editing-->MarkDown GFM Settings - User`中的`"color_scheme": `字段的值为`"Packages/Color Scheme - Default/Mariana.sublime-color-scheme"`
@@ -194,10 +202,13 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     需要插件: `Terminal`.
 
      - 配置:
+
         在`Perferences-->Package Settings-->Terminal-->Settings - User`
 
         如果需要自定义路径那么配置以下内容, 如果使用默认的配置, 那么不进行修改.
+
          - Cmd on Windows
+
             ```
             {
               // window下终端路径
@@ -206,13 +217,17 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
               "parameters": ["/START", "%CWD%"]
             }
             ```
+
          - xterm on GNU/Linux
+
             ```
             {
               "terminal": "xterm"
             }
             ```
+
          - iTerm on OS X
+
             ```
             {
               "terminal": "iTerm.sh"
@@ -220,6 +235,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
             ```
 
      - 配置快捷键:
+
          - `ctrl+shift+t`打开文件所在文件夹
          - `ctrl+shift+alt+t`打开文件所在项目的根目录文件夹
 
@@ -238,9 +254,11 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
             ```
 
  - `SublimeREPL`
+
     需要插件: `SublimeREPL`.
 
      - 键位绑定
+
         可以通过`Tools-->SublimeREPL-->Python`这样的方式进入`Python shell`, 但是这样比较麻烦.
 
         打开`Preferences->Key Bindings-User`, 复制一下代码:
@@ -254,12 +272,15 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
         ```
 
  - `SideBarEnhancements`
+
     `SideBarEnhancements`扩展了侧边栏中菜单选项的数量, 例如`Sublime Text 3`的右键有`Delete file`, 这个是彻底删除文件. 但是这个插件实现的`Delete`是把文件移动到回收站.
 
  - `A File Icon`
+
     `A File Icon`是侧边栏的文件和文件夹的图标主题.
 
  - `Anaconda`
+
     `Anaconda`是一个终极`Python`插件. 它为`Sublime Text 3`增添了多项`IDE`类似的功能, 例如:
 
      - `Autocompletion`自动完成, 该选项默认开启, 同时提供多种配置选项.
@@ -275,14 +296,17 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
      - `Show Documentation`能够显示一个函数或者类的说明性字符串(当然, 是在定义了字符串的情况下).
   
  - `requirementstxt`
+
     `requirementstxt`可以为`requirements.txt`文件提供自动补全, 语法高亮以及版本管理功能.
 
  - `SublimeLinter`
+
     `SublimeLinter`是`Sublime Text 3`的一个代码静态检查工具框架(`linter`). 这个插件本身来说并不包含任何的一个`linter`, 但是你可以通过在`Package Control`中输入`SublimeLinter-[linter_name]`的方式来安装一个`linter`. 
 
     对于`Python`的代码静态检查器, 建议使用`SublimeLinter-pyflakes`和`SublimeLinter-pep8`.
 
      - `linter`个性化
+
     `Preferences-->Package Settings-->SublimeLinter-->Settings`. 例如忽略`pep8`中的错误和警告:
     ```
       "pep8": {
@@ -296,14 +320,17 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     ```
 
  - Git
+
     `Git`, 快捷键`Ctrl+Shift+P`, 输入`Git`命令, 在下拉框中选择即可.
 
     特别的, 输入`git diff`, 还可以比较文件差异.
 
  - GitGutter
+
     `GitGutter`让`Sublime Text 3`能在左边栏的位置显示一个小图标, 用以表示在最后一次提交以后, 代码是否有追加, 修改或者删除.
 
  - Modific
+
     `Modific`, 标记代码的改变, 支持`git`和`svn`. 会在`Sublime Text`的左边栏显示各种颜色的状态.
 
     除了高亮变化, 还可以通过按`Ctrl+Alt+D`来查看或比较当前的代码与最近提交的代码之间的区别.
@@ -313,11 +340,13 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     切换突出显示开/关`Ctl+Shift+h`, `Ctrl+Shift+l`.
 
     含义:
-     - 绿色: 添加的代码
-     - 红色: 删除的代码
-     - 橙色: 修改的代码
+
+     - `绿色`: `添加的代码`
+     - `红色`: `删除的代码`
+     - `橙色`: `修改的代码`
 
  - FTPSync
+
    `FTPSync`能够将你的项目和远程文件进行同步.
 
    只需要打开文件便可以下载更新(如果你的远端文件比本地更加新的话), 而且如果对本地文件做出了修改可以立即同步到远程服务器, 这是非常棒的同步本地文件和远程文件的方法.
@@ -340,5 +369,6 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
    ```
 
  - Block Cursor Everywhere
+
     `Block Cursor Everywhere`, 将`Vim`模式下的光标, 由下划线改为方块.
 
