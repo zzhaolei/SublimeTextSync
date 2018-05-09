@@ -11,4 +11,6 @@
 	"translate_tabs_to_spaces": true,
 	"highlight_line": true,
 	"vintage_ctrl_keys": true,
+	"ensure_newline_at_eof_on_save": true,
+	"default_line_ending": "unix",
 }
