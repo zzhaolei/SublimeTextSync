@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"FTPSync",
+		"Git",
+		"GitGutter",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Modific",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"requirementstxt",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"SublimeREPL",
+		"Terminal"
+	]
+}
