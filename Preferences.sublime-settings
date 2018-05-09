@@ -9,5 +9,6 @@
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_ctrl_keys": true
+	"highlight_line": true,
+	"vintage_ctrl_keys": true,
 }
