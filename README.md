@@ -73,8 +73,7 @@ git push origin master
 
 在[Sublime Text](https://www.sublimetext.com/)官网下载软件包, 默认是下载的`Sublime Text 3`.
 
-下载完成后双击安装, 在安装时记得勾选`Add to explorer context menu`(加入资源管理器上下文菜单), 这样对一个文件右键的时候, 会显示`Open To Sublime Text 3`,
-通过`Sublime Text 3`打开.
+下载完成后双击安装, 在安装时记得勾选`Add to explorer context menu`(加入资源管理器上下文菜单), 这样对一个文件右键的时候, 会显示`Open To Sublime Text 3`, 通过`Sublime Text 3`打开.
 
 
 ## Sublime Text 配置
