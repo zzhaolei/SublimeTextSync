@@ -119,7 +119,7 @@ git push origin master
     # "vintage_start_in_command_mode": true,
 
     # 配置主题
-    # "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+    "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
     # 配置窗口主题
     "theme": "Adaptive.sublime-theme",
 
