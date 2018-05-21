@@ -1,15 +1,26 @@
 {
+	// 高亮主题
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+	// 行结束符为unix格式LF
 	"default_line_ending": "unix",
+	// 保存在文件结尾添加空行
 	"ensure_newline_at_eof_on_save": true,
+	// 字体大小
 	"font_size": 16,
+	// 钢梁当前行
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Markdown"
 	],
+	// tab长度
 	"tab_size": 4,
+	// sublime主题
 	"theme": "Boxy Monokai.sublime-theme",
+	// 将tab转为4空格
 	"translate_tabs_to_spaces": true,
-	"vintage_ctrl_keys": true
+	// vim启用快捷键
+	"vintage_ctrl_keys": true,
+	// 失去焦点自动保存
+	"save_on_focus_lost": true,
 }

@@ -1,6 +1,7 @@
 # SublimeTextSync
 Sublime Text的所有插件和配置备份
 
+
 # Sublime Text配置
 
 ## 直接同步插件和配置信息
@@ -293,11 +294,16 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
     
      - `Show Documentation`能够显示一个函数或者类的说明性字符串(当然, 是在定义了字符串的情况下).
      - 关闭`Anaconda`提示, 在`Perferences-->Package Settings-->Anaconda-->Settings - User`, 添加:
-    ```
-    {
-        "anaconda_linting": false,
-    }
-    ```
+        ```
+        {
+            "anaconda_linting": false,
+        }
+        ```
+     - `Anaconda`打开`Python`文件弹窗提示含有`import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(("localhost", 66666))`, 解决方案, 在`sublime`的`console`中执行`import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(("localhost", 66666))`, 或者 在`Perferences-->Package Settings-->Anaconda-->Settings - User`, 添加:
+        ```
+        "swallow_startup_errors": true,
+        ```
+
   
  - `requirementstxt`
 
