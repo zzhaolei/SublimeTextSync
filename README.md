@@ -1,7 +1,6 @@
 # SublimeTextSync
 Sublime Text的所有插件和配置备份
 
-
 # Sublime Text配置
 
 ## 直接同步插件和配置信息
@@ -293,6 +292,12 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
      - `Find Usage`能够快速的查找某个变量, 函数或者类在某个特定文件中的什么地方被使用了.
     
      - `Show Documentation`能够显示一个函数或者类的说明性字符串(当然, 是在定义了字符串的情况下).
+     - 关闭`Anaconda`提示, 在`Perferences-->Package Settings-->Anaconda-->Settings - User`, 添加:
+    ```
+    {
+        "anaconda_linting": false,
+    }
+    ```
   
  - `requirementstxt`
 
@@ -370,4 +375,3 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
  - Block Cursor Everywhere
 
     `Block Cursor Everywhere`, 将`Vim`模式下的光标, 由下划线改为方块.
-
