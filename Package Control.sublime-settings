@@ -8,10 +8,12 @@
 		"A File Icon",
 		"Anaconda",
 		"Boxy Theme",
+		"ChineseLocalizations",
 		"FTPSync",
 		"Git",
 		"GitGutter",
 		"MarkdownEditing",
+		"MarkdownPreview",
 		"Modific",
 		"OmniMarkupPreviewer",
 		"Package Control",
@@ -21,7 +23,6 @@
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"SublimeREPL",
-		"Terminal",
-		"MarkdownPreview"
+		"Terminal"
 	]
 }
