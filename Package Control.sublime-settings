@@ -23,6 +23,7 @@
 		"SublimeLinter-pep8",
 		"SublimeLinter-pyflakes",
 		"SublimeREPL",
-		"Terminal"
+		"Terminal",
+		"Virtualenv"
 	]
 }
