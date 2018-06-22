@@ -19,7 +19,7 @@
 	// tab长度
 	"tab_size": 4,
 	// 界面主题
-	"theme": "Boxy Monokai.sublime-theme",
+	"theme": "Default.sublime-theme",
 	// 将tab转为空格
 	"translate_tabs_to_spaces": true,
 	// vim支持快捷键
