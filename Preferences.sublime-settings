@@ -12,7 +12,8 @@
 	// 忽略包
 	"ignored_packages":
 	[
-		"Markdown"
+		"Markdown",
+		"Vintage",
 	],
 	// 自动保存
 	"save_on_focus_lost": true,
