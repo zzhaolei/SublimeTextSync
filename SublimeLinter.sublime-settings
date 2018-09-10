@@ -70,7 +70,27 @@
     //         "excludes": [],
     //     }
     // }
-    "linters": {},
+    // "linters": {},
+
+    "linters": {
+        // 可以配置多条
+        "flake8": {
+            // 开启，true为关闭
+            "disable": false,
+            // Python 路径
+            "python": null,
+            "args": [],
+            "builtins": "",
+            "excludes": [],
+            // 忽略的检测
+            "ignore": "",
+            "jobs": "1",
+            "max-complexity": -1,
+            "max-line-length": 79,
+            "select": "",
+            "show-code": false
+        },
+    },
 
     // Determines what happens when a linter reports a problem without column.
     // By default, a mark is put in the gutter and the first character is highlighted.
